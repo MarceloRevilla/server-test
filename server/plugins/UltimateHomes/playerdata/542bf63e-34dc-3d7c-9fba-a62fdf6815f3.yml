@@ -1,0 +1,67 @@
+player:
+  info:
+    lastSeenAs: zkannek12
+homes:
+  spawn:
+    x: -26
+    y: 72
+    z: 32
+    yaw: 131.70006
+    pitch: 10.200008
+    world: world
+  bigsam:
+    x: -264
+    y: 144
+    z: 362
+    yaw: 73.06973
+    pitch: 27.741917
+    world: world
+  base1:
+    x: 7047
+    y: 71
+    z: 4072
+    yaw: 299.75192
+    pitch: 40.499996
+    world: world
+  meset:
+    x: 7306
+    y: 88
+    z: 3983
+    yaw: 297.65198
+    pitch: 24.899994
+    world: world
+  base2:
+    x: 9849
+    y: 67
+    z: 5420
+    yaw: -137.49817
+    pitch: 7.200009
+    world: world
+  base3:
+    x: 10014
+    y: 64
+    z: 6845
+    yaw: 0.8421631
+    pitch: 10.923909
+    world: world
+  base4:
+    x: 9893
+    y: 68
+    z: 7393
+    yaw: 95.77484
+    pitch: -0.90944135
+    world: world
+  base5:
+    x: 9999
+    y: 69
+    z: 9681
+    yaw: 17.024841
+    pitch: 13.800011
+    world: world
+  base6:
+    x: 10000
+    y: 69
+    z: 9671
+    yaw: 335.47498
+    pitch: 17.400011
+    world: world

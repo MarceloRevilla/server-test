@@ -1,0 +1,11 @@
+player:
+  info:
+    lastSeenAs: zakesinho
+homes:
+  base:
+    x: -282
+    y: 166
+    z: 359
+    yaw: -358.5005
+    pitch: 46.50001
+    world: world

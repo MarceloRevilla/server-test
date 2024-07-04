@@ -1,0 +1,19 @@
+groups:
+  default:
+    options:
+      default: true
+    permissions:
+    - backpack.size.4
+    - backpack.use
+    - minepacks.use
+    - modifyworld.*
+  Admin:
+    permissions:
+    - permissions.*
+schema-version: 1
+users:
+  542bf63e-34dc-3d7c-9fba-a62fdf6815f3:
+    group:
+    - Admin
+    options:
+      name: zkannek12

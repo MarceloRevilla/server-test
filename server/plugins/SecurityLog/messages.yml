@@ -1,0 +1,93 @@
+Messages:
+  Command:
+    usage:
+    - ''
+    - '     &6&lS&e&lECURITY &6&lL&e&lOGIN &7(&cAdmin &7Commands)'
+    - ''
+    - '&7• &6/slg &esetpin <&7player&e> <&7PIN&e> &fSet player''s PIN.'
+    - '&7• &6/slg &eresetpin <&7player&e> &fReset player''s PIN.'
+    - '&7• &6/slg &bconfig &fOpens config inventory.'
+    - ''
+    - '&7• &6/slg &ereload &fReloads the config files.'
+    - ''
+    setpin: '&eYou have &aset &7%player%''s &ePIN to &d%PIN%&e.'
+    setpin-error: '&eThe &cPIN &emust be a &cnumber &eof &c%passlength% &edigits&c.'
+    no-pin: '&eThat player has not a &cPIN &eregistered. &7(Try to type the nick correctly)'
+    pin-deleted: '&eYou have &cdeleted &7%player%''s &ePIN.'
+    reload: '&eYou have &areloaded &ethe config files!'
+  Inventories:
+    Register: '&6&lPIN: &eRegistering.'
+    Login: '&2&lPIN: &aLogging in.'
+    Modify: '&8&lPIN: &7Modifying.'
+    Config: '&3&lPIN: &bConfiguring.'
+    Preview: '&bPreviewing inventory'
+    ModifyPhaseOneName: '&aPHASE 1 > &eCurrent PIN.'
+    ModifyPhaseOneLore:
+    - ' '
+    - '&7First, you have to put'
+    - '&7your current PIN to modify it.'
+    ModifyPhaseTwoName: '&aPHASE 2 > &eNew PIN.'
+    ModifyPhaseTwoLore:
+    - ' '
+    - '&7Finally, you have to set'
+    - '&7your new PIN to finish the process.'
+    Config-not-set: '&8-/-'
+    Config-name: '&e&lID: #%id%'
+    Config-lore:
+    - '&bType: &a%type%'
+    - '&7Name: %name%'
+    - ''
+    - '&dClick to edit item.'
+    Config-preview-name: '&a&lPREVIEW'
+    Config-preview-lore:
+    - '&7Click to preview'
+    - '&7the final inventory.'
+    Config-message:
+    - ''
+    - '&ePut the &9item &ein your hand and then use &b/afinish'
+    - '&eto change the &adisplay icon &ein the inventory.'
+    Config-item-changed: '&bItem changed!'
+    Config-item-error: '&cThe item can not be &7null &cor &7AIR&c.'
+  Texts:
+    NoPermission: '&fUnknown Command. It''s an error¿? Contact an Admin.'
+    Unsafe-password:
+    - ''
+    - '&cThat is an unsafe password, use another'
+    - '&cto avoid account stealings or related.'
+    Register:
+    - ' '
+    - '&6&l¡PIN REGISTERED!'
+    - ' '
+    - '&7Hi, &6&lSTAFF &e%player% &6&l✪'
+    - '&7It''s your first time.'
+    - '&cDon''t &7give your Password to anyone & &aSave it &7for you.'
+    - ' '
+    Login:
+    - ' '
+    - '&2&l¡YOU HAVE LOGGED IN!'
+    - ' '
+    - '&7Hi, &6&lSTAFF &e%player% &6&l✪'
+    - '&7Welcome again to the Server.'
+    - '&cDon''t &7give your Password to anyone & &aSave it &7for you.'
+    - ' '
+    Modify:
+    - ' '
+    - '&8&l¡PIN MODIFIED!'
+    - ' '
+    - '&7Hi, &6&lSTAFF &e%player% &6&l✪'
+    - '&7You have changed your PIN.'
+    - '&cDon''t &7give your Password to anyone & &aSave it &7for you.'
+    - ' '
+    RemainingAttempts:
+    - ' '
+    - '&4&l¡INCORRECT PIN!'
+    - ' '
+    - '&7Remaining Attemps: &c%attempts%'
+    - ' '
+  Kicks:
+    LoginKick: "&4¡Kicked!\n&c¡You have been kicked!\n \n&7Nick: &c%player%\n&7The\
+      \ limit of tries is &c%attempts%&7.\n \n&e¡Log in again!"
+    ModifyKick: "&4¡Kicked!\n&c¡You have been kicked!\n \n&7Nick: &c%player%\n&7Current\
+      \ PIN put was wrong.\n \n&e¡Modify it again!"
+    TimeoutKick: "&4¡Kicked!\n&c¡You have been kicked!\n \n&7Nick: &c%player%\n&7Login\
+      \ time exceeded, &c%seconds% &7seconds.\n \n&e¡Be faster!"

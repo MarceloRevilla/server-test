@@ -1,0 +1,117 @@
+[23:52:48] [main/INFO]: Using mbed TLS based native cipher.
+[23:52:48] [main/INFO]: Using zlib based native compressor.
+[23:52:48] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
+[23:52:48] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[23:52:48] [main/INFO]: Epoll is working, utilising it!
+[23:52:48] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[23:52:48] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[23:52:48] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[23:52:48] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[23:52:48] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[23:52:48] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[23:52:48] [main/WARN]: Could not load plugin from file plugins/Bungee.jar
+java.lang.NullPointerException: Plugin must have a plugin.yml or bungee.yml
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:907) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.api.plugin.PluginManager.detectPlugins(PluginManager.java:434) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:285) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+[23:52:48] [main/WARN]: Error loading plugin ViaRewind
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:394) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:300) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:287) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 13 more
+[23:52:48] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[23:52:48] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[23:52:48] [main/WARN]: Error loading plugin ViaVersion
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:394) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:300) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:287) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 13 more
+[23:52:48] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[23:52:48] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[23:52:48] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[23:52:48] [main/WARN]: Error loading plugin ViaBackwards
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:394) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:300) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:287) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 13 more
+[23:52:48] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[23:52:48] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[23:52:48] [main/WARN]: :>  
+[23:52:48] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[23:52:48] [main/WARN]: :>  
+[23:52:48] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[23:52:48] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[23:52:48] [main/WARN]: :>  apart from the versions listed below:
+[23:52:48] [main/WARN]: :>  
+[23:52:48] [main/WARN]: :>  - BungeeCord: 1.20-R0.3-SNAPSHOT:eda268b:1797
+[23:52:48] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:92b5149:562
+[23:52:48] [main/WARN]: :>  - FlameCord: 1.1.1
+[23:52:48] [main/WARN]: :>  
+[23:52:48] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[23:52:48] [main/WARN]: :>  
+[23:52:48] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[23:52:48] [main/WARN]: :>  
+[23:52:48] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[23:52:49] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
+[23:52:49] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
+[23:52:49] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.10 by lax1dude
+[23:52:49] [main/WARN]: Forced host server pvp is not defined
+[23:52:49] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[23:52:49] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[23:52:49] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[23:52:49] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[23:52:49] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[23:52:49] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[23:52:49] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[23:52:49] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[23:52:50] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[23:52:50] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
+[23:52:50] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[23:52:50] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/server-test/bungee/plugins/EaglercraftXBungee/eagcert/$dl.2c63d6a9be9d273db57d50cb026093cb97ea6e54.cert

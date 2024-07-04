@@ -39,9 +39,9 @@ updater:
   # The type of builds you are checking. RELEASE, BETA, ALPHA
   channel: BETA
 # Session timeout in seconds, set to -1 to disable.
-session-timeout: 0
+session-timeout: 60
 # Login timeout in seconds, set to -1 to disable.
-login-timeout: 30
+login-timeout: 120
 # Login/register message delay in seconds.
 login-message-delay: 10
 # Language for messages, check wiki for more info.

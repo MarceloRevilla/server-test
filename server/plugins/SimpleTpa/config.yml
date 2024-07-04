@@ -20,6 +20,9 @@ disable-prefix: false
 prefix: "&c[&6SimpleTpa&c]"
 
 #Messages:
+# To use HEX COLOR CODES - EXAMPLE: #2ecc71
+# Death-Message: "&6To teleport to your death #2ecc71location use &c/back"
+
 # TO DISABLE A MESSAGE - SET IT TO - NONE
 # EXAMPLE:
 # Console-Isnt-Player: "none"
@@ -74,9 +77,12 @@ World-Doesnt-Exists-Or-Unloaded: "&6The world you're trying to teleport to is ei
 #Here you can find the colors https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/ChatColor.html
 
 # PARTICLES AND SOUNDS
-#Select the name for the sound from here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+# Here you can change the sound volume or the pitch. These are the recommended values
+# Select the name for the sound from here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
 Sound-Name: "ENTITY_EXPERIENCE_ORB_PICKUP"
-#Select the name for the particle from here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
+sound-volume: 3.0
+sound-pitch: 0.533
+# Select the name for the particle from here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
 Particle-Name: "EXPLOSION_NORMAL"
 
 #Accept Button Properties
@@ -128,6 +134,7 @@ disable-particles: false
 disable-move-system: false
 # If you want to disable sounds from the plugin, then set this to true
 disable-sound: false
+
 # If you want to disable interdimensional travel(only allowed to use the plugin in the same world with other player), then set this to true
 disable-interdimensional-travel: false
 # If you want to disable the invincibility after teleporting, then set this to true
@@ -152,5 +159,6 @@ tpahereall-cooldown: 10
 #The options for commands are: tpa | tpahere | back | tpahereall
 #Example: simpletpa.cooldown.tpa.300 | simpletpa.cooldown.tpahere.300 | simpletpa.cooldown.tpahereall.300 | simpletpa.cooldown.back.300
 #This will set the cooldown for tpa/ tpahere/ tpahereall / back to 300 seconds
+
 
 

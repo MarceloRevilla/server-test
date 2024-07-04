@@ -1,0 +1,1672 @@
+[00:48:15] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[00:48:15] [Server thread/INFO]: Loading properties
+[00:48:15] [Server thread/INFO]: Default game type: SURVIVAL
+[00:48:15] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[00:48:16] [Server thread/INFO]: Debug logging is disabled
+[00:48:16] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[00:48:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[00:48:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:48:16] [Server thread/INFO]: Data value allowed items: 
+[00:48:16] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[00:48:16] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[00:48:16] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[00:48:16] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[00:48:16] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[00:48:16] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[00:48:16] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[00:48:16] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[00:48:16] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[00:48:16] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[00:48:16] [Server thread/INFO]: Generating keypair
+[00:48:16] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[00:48:16] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[00:48:16] [Server thread/INFO]: Using default channel type
+[00:48:16] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[00:48:16] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[00:48:16] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[00:48:16] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v7.1
+[00:48:16] [Server thread/INFO]: [GrapplingHook] Loading GrapplingHook v3.1
+[00:48:16] [Server thread/INFO]: [GrapplingHook] [0;32;22mServer version 1.8.8 identified using old API (1.8 until 1.12).[m
+
+[00:48:16] [Server thread/INFO]: [InventoryRollbackPlus] Loading InventoryRollbackPlus v1.6.17
+[00:48:16] [Server thread/INFO]: [PlayerKits2] Loading PlayerKits2 v1.12.2
+[00:48:16] [Server thread/INFO]: [Minepacks] Loading Minepacks v2.4.31.4-T20240629215752
+[00:48:16] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[00:48:16] [Server thread/INFO]: [UltimateHomes] Loading UltimateHomes v3.0
+[00:48:16] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.2.0-SNAPSHOT-679
+[00:48:18] [Server thread/INFO]: [ItemEdit] Loading ItemEdit v3.4.2
+[00:48:18] [Server thread/INFO]: [Graves] Loading Graves v4.9
+[00:48:18] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[00:48:18] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
+[00:48:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:48:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:48:18] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[00:48:18] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[00:48:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:48:18] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[00:48:18] [Server thread/INFO]: Preparing level "world"
+[00:48:18] [Server thread/INFO]: -------- World Settings For [world] --------
+[00:48:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[00:48:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:48:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[00:48:18] [Server thread/INFO]: Random Lighting Updates: false
+[00:48:18] [Server thread/INFO]: Structure Info Saving: true
+[00:48:18] [Server thread/INFO]: Sending up to 10 chunks per packet
+[00:48:18] [Server thread/INFO]: Max Entity Collisions: 8
+[00:48:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[00:48:18] [Server thread/INFO]: Max TNT Explosions: 100
+[00:48:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:48:18] [Server thread/INFO]: Mob Spawn Range: 4
+[00:48:18] [Server thread/INFO]: Anti X-Ray: true
+[00:48:18] [Server thread/INFO]: 	Engine Mode: 1
+[00:48:18] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[00:48:18] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[00:48:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:48:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:48:18] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:48:18] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:48:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:48:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:48:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:48:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:48:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:48:18] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:48:18] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:48:18] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:48:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:48:18] [Server thread/INFO]: View Distance: 4
+[00:48:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:48:18] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[00:48:18] [Server thread/INFO]: Clear tick list: false
+[00:48:18] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:48:18] [Server thread/INFO]: -------- World Settings For [world] --------
+[00:48:18] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[00:48:18] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[00:48:18] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[00:48:18] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[00:48:18] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[00:48:18] [Server thread/INFO]: Water over lava flow speed: 5
+[00:48:18] [Server thread/INFO]: Fix TNT cannons: false
+[00:48:18] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[00:48:18] [Server thread/INFO]: Keep spawn chunk loaded: true
+[00:48:18] [Server thread/INFO]: World async lighting: false
+[00:48:18] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[00:48:18] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[00:48:18] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[00:48:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[00:48:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:48:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[00:48:18] [Server thread/INFO]: Random Lighting Updates: false
+[00:48:18] [Server thread/INFO]: Structure Info Saving: true
+[00:48:18] [Server thread/INFO]: Sending up to 10 chunks per packet
+[00:48:18] [Server thread/INFO]: Max Entity Collisions: 8
+[00:48:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[00:48:18] [Server thread/INFO]: Max TNT Explosions: 100
+[00:48:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:48:18] [Server thread/INFO]: Mob Spawn Range: 4
+[00:48:18] [Server thread/INFO]: Anti X-Ray: true
+[00:48:18] [Server thread/INFO]: 	Engine Mode: 1
+[00:48:18] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[00:48:18] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[00:48:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:48:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:48:18] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:48:18] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:48:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:48:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:48:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:48:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:48:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:48:18] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:48:18] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:48:18] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:48:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:48:18] [Server thread/INFO]: View Distance: 4
+[00:48:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:48:18] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[00:48:18] [Server thread/INFO]: Clear tick list: false
+[00:48:18] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:48:18] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[00:48:18] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[00:48:18] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[00:48:18] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[00:48:18] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[00:48:18] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[00:48:18] [Server thread/INFO]: Water over lava flow speed: 5
+[00:48:18] [Server thread/INFO]: Fix TNT cannons: false
+[00:48:18] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[00:48:18] [Server thread/INFO]: Keep spawn chunk loaded: true
+[00:48:18] [Server thread/INFO]: World async lighting: false
+[00:48:18] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[00:48:18] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[00:48:18] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[00:48:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[00:48:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:48:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[00:48:18] [Server thread/INFO]: Random Lighting Updates: false
+[00:48:18] [Server thread/INFO]: Structure Info Saving: true
+[00:48:18] [Server thread/INFO]: Sending up to 10 chunks per packet
+[00:48:18] [Server thread/INFO]: Max Entity Collisions: 8
+[00:48:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[00:48:18] [Server thread/INFO]: Max TNT Explosions: 100
+[00:48:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:48:18] [Server thread/INFO]: Mob Spawn Range: 4
+[00:48:18] [Server thread/INFO]: Anti X-Ray: true
+[00:48:18] [Server thread/INFO]: 	Engine Mode: 1
+[00:48:18] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[00:48:18] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[00:48:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:48:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:48:18] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:48:18] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:48:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:48:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:48:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:48:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:48:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:48:18] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:48:18] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:48:18] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:48:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:48:18] [Server thread/INFO]: View Distance: 4
+[00:48:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:48:18] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[00:48:18] [Server thread/INFO]: Clear tick list: false
+[00:48:18] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:48:18] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[00:48:18] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[00:48:18] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[00:48:18] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[00:48:18] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[00:48:18] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[00:48:18] [Server thread/INFO]: Water over lava flow speed: 5
+[00:48:18] [Server thread/INFO]: Fix TNT cannons: false
+[00:48:18] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[00:48:18] [Server thread/INFO]: Keep spawn chunk loaded: true
+[00:48:18] [Server thread/INFO]: World async lighting: false
+[00:48:18] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[00:48:18] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[00:48:18] [Server thread/INFO]: Preparing start region for level 0 (Seed: -3880398978874013095)
+[00:48:19] [Server thread/INFO]: Preparing spawn area: 24%
+[00:48:20] [Server thread/INFO]: Preparing start region for level 1 (Seed: -3880398978874013095)
+[00:48:21] [Server thread/INFO]: Preparing start region for level 2 (Seed: -3880398978874013095)
+[00:48:21] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[00:48:21] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[00:48:21] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[00:48:21] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.1
+[00:48:21] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[00:48:21] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 7.1[m
+
+[00:48:21] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[00:48:21] [Server thread/INFO]: [GrapplingHook] Enabling GrapplingHook v3.1
+[00:48:21] [Server thread/INFO]: [GrapplingHook] [0;30;1m+-----------------------------------------------+[m
+
+[00:48:21] [Server thread/INFO]: [0;37;22m[[0;33;22mGrapplingHook[0;37;22m]   [0;30;1mServer Version: [0;32;1m1.8.8[0;30;1m -> API-Version: [0;32;1m1.8 - 1.12[m
+
+[00:48:21] [Server thread/INFO]: [0;37;22m[[0;33;22mGrapplingHook[0;37;22m]   [0;30;1mWorldGuard [0;31;1mnot loaded[m
+
+[00:48:21] [Server thread/INFO]: [0;37;22m[[0;33;22mGrapplingHook[0;37;22m]   [0;30;1mGrappling hooks loaded: [0;31;1m1[m
+
+[00:48:21] [Server thread/INFO]: [0;37;22m[[0;33;22mGrapplingHook[0;37;22m] [0;30;1m+---------------[ [0;35;22mBy Keule2 [0;30;1m([0;32;1m22ms[0;30;1m) ]-------------+[m
+
+[00:48:21] [Server thread/INFO]: [InventoryRollbackPlus] Enabling InventoryRollbackPlus v1.6.17
+[00:48:21] [Server thread/INFO]: [InventoryRollbackPlus] Found CraftBukkit Package Version: v1_8_R3
+[00:48:21] [Server thread/INFO]: [0;37;1m[[0;36;1mInventoryRollbackPlus[0;37;1m][m Inventory backup data is set to save to: YAML[m
+
+[00:48:21] [Server thread/INFO]: [0;37;1m[[0;36;1mInventoryRollbackPlus[0;37;1m][m bStats are enabled[m
+
+[00:48:21] [Server thread/INFO]: [InventoryRollbackPlus] ====================================================
+[00:48:21] [Server thread/INFO]: [InventoryRollbackPlus]  InventoryRollbackPlus works better if you use Paper 
+[00:48:21] [Server thread/INFO]: [InventoryRollbackPlus]  as your server software. 
+[00:48:21] [Server thread/INFO]: [InventoryRollbackPlus]   
+[00:48:21] [Server thread/INFO]: [InventoryRollbackPlus]  Paper offers significant performance improvements,
+[00:48:21] [Server thread/INFO]: [InventoryRollbackPlus]  bug fixes, security enhancements and optional
+[00:48:21] [Server thread/INFO]: [InventoryRollbackPlus]  features for server owners to enhance their server.
+[00:48:21] [Server thread/INFO]: [InventoryRollbackPlus]   
+[00:48:21] [Server thread/INFO]: [InventoryRollbackPlus]  Paper includes Timings v2, which is significantly
+[00:48:21] [Server thread/INFO]: [InventoryRollbackPlus]  better at diagnosing lag problems over v1.
+[00:48:21] [Server thread/INFO]: [InventoryRollbackPlus]   
+[00:48:21] [Server thread/INFO]: [InventoryRollbackPlus]  All of your plugins should still work, and the
+[00:48:21] [Server thread/INFO]: [InventoryRollbackPlus]  Paper community will gladly help you fix any issues.
+[00:48:21] [Server thread/INFO]: [InventoryRollbackPlus]   
+[00:48:21] [Server thread/INFO]: [InventoryRollbackPlus]  Join the Paper Community @ https://papermc.io
+[00:48:21] [Server thread/INFO]: [InventoryRollbackPlus] ====================================================
+[00:48:21] [Server thread/INFO]: [PlayerKits2] Enabling PlayerKits2 v1.12.2
+[00:48:21] [Server thread/INFO]: [0;30;1m[[0;36;1mPlayerKits[0;32;1m²[0;30;1m] [0;33;1mHas been enabled! [0;37;1mVersion: 1.12.2[m
+
+[00:48:21] [Server thread/INFO]: [0;30;1m[[0;36;1mPlayerKits[0;32;1m²[0;30;1m] [0;33;1mThanks for using my plugin!   [0;37;1m~Ajneb97[m
+
+[00:48:21] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.31.4-T20240629215752
+[00:48:21] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[00:48:21] [Thread-6/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[00:48:21] [Server thread/INFO]: [Minepacks] [32mConfig file successfully loaded.[0m
+[00:48:22] [Server thread/INFO]: [Minepacks] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
+[00:48:22] [Server thread/WARN]: SLF4J: No SLF4J providers were found.
+
+[00:48:22] [Server thread/WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+[00:48:22] [Server thread/WARN]: SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+
+[00:48:22] [Server thread/INFO]: [Minepacks] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
+[00:48:22] [Server thread/INFO]: [Minepacks] Loading item translations ...
+[00:48:22] [Server thread/INFO]: [Minepacks] Finished loading item translations for 634 items.
+[00:48:22] [Server thread/INFO]: [Minepacks] [32m Minepacks has been enabled! [33m :) [0m
+[00:48:22] [Server thread/INFO]: [UltimateHomes] Enabling UltimateHomes v3.0
+[00:48:22] [Server thread/INFO]: [m
+
+[00:48:22] [Server thread/INFO]: [0;32;1m--------------------------------------[m
+
+[00:48:22] [Server thread/INFO]: [0;37;1m       UltimateHomes by kixmc[m
+
+[00:48:22] [Server thread/INFO]: [0;37;1m       Enabled on version 3.0[m
+
+[00:48:22] [Server thread/INFO]: [0;32;1m--------------------------------------[m
+
+[00:48:22] [Server thread/INFO]:  [m
+
+[00:48:22] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.4.2
+[00:48:22] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
+[00:48:22] [Server thread/INFO]: [0;34;22m[[0;37;1mItemEdit[0;34;22m] [0;37;1mUnable to hook into Vault[m
+
+[00:48:22] [Server thread/INFO]: [0;34;22m[[0;37;1mItemEdit[0;34;22m] [0;37;1m[0;32;1m# [0;37;1mEnabled (took [0;33;1m78[0;37;1m ms)[m
+
+[00:48:22] [Server thread/INFO]: [Graves] Enabling Graves v4.9
+[00:48:22] [Server thread/INFO]: [Graves] Integration: Hooked into ProtocolLib 5.2.0-SNAPSHOT-679.
+[00:48:22] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[00:48:22] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[00:48:22] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[00:48:22] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[00:48:22] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[00:48:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:48:22] [Server thread/INFO]: Done (4.071s)! For help, type "help" or "?"
+[00:48:22] [Server thread/INFO]: Timings Reset
+[00:48:22] [Craft Scheduler Thread - 0/INFO]: [0;37;1m[[0;36;1mInventoryRollbackPlus[0;37;1m][m Checking for updates...[m
+
+[00:48:22] [Server thread/INFO]: [Graves] Information: Legacy version detected, Graves will run but may have problems with material names, the default config is setup for the latest version of the game, you can alter the config manually to fix any issues you encounter, you will need to find the names of materials and sounds for your version.
+[00:48:22] [Craft Scheduler Thread - 1/INFO]: [0;37;22m[[0;33;22mGrapplingHook[0;37;22m] [0;32;22mThere is a new update available: [0;37;22mv_3.1 (Current version: v_3.1)[m
+
+[00:48:22] [Craft Scheduler Thread - 0/INFO]: [0;37;1m[[0;36;1mInventoryRollbackPlus[0;37;1m][m [mYou are running the latest version.[m
+
+[00:49:24] [Thread-8/INFO]: UUID of player zkannek12 is 542bf63e-34dc-3d7c-9fba-a62fdf6815f3
+[00:49:24] [Server thread/INFO]: zkannek12[/[0:0:0:0:0:0:0:1]:58840] logged in with entity id 380 at ([world]448.3183000257681, 69.0, 462.55583421295694)
+[01:00:40] [Server thread/INFO]: zkannek12 issued server command: /gamemode 1
+[01:00:40] [Server thread/INFO]: [zkannek12: Set own game mode to Creative Mode]
+[01:01:13] [Server thread/INFO]: zkannek12 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 7
+[01:01:13] [Server thread/INFO]: zkannek12 left the game.
+[01:01:31] [Thread-10/INFO]: UUID of player TiaRosario is 33c313f1-22b1-3c93-b865-156b197b6ea3
+[01:01:31] [Server thread/INFO]: TiaRosario[/[0:0:0:0:0:0:0:1]:32906] logged in with entity id 1909 at ([world]-2455.699999988079, 64.0, -2379.9400434188547)
+[01:01:34] [Thread-11/INFO]: UUID of player zkannek12 is 542bf63e-34dc-3d7c-9fba-a62fdf6815f3
+[01:01:34] [Server thread/INFO]: zkannek12[/[0:0:0:0:0:0:0:1]:32912] logged in with entity id 2096 at ([world]536.4909576919612, 67.4807108763317, 570.9775488729333)
+[01:01:43] [Async Chat Thread - #0/INFO]: <zkannek12> ola[m
+
+[01:01:44] [Async Chat Thread - #0/INFO]: <TiaRosario> marceloide[m
+
+[01:01:51] [Async Chat Thread - #0/INFO]: <TiaRosario> donde estas[m
+
+[01:01:51] [Server thread/INFO]: zkannek12 issued server command: /gamemode 0
+[01:01:51] [Server thread/INFO]: [zkannek12: Set own game mode to Survival Mode]
+[01:01:56] [Async Chat Thread - #0/INFO]: <zkannek12> en una aldea[m
+
+[01:02:05] [Async Chat Thread - #0/INFO]: <zkannek12> igual me voy a salir[m
+
+[01:02:10] [Async Chat Thread - #0/INFO]: <zkannek12> que voy a hacer otra cosa[m
+
+[01:02:20] [Async Chat Thread - #0/INFO]: <TiaRosario> estoy en mi chromevook sin mouse xd[m
+
+[01:02:31] [Async Chat Thread - #0/INFO]: <zkannek12> pero sabes q puedes jugar en tu pc normal no?[m
+
+[01:02:42] [Async Chat Thread - #0/INFO]: <TiaRosario> no tengo :([m
+
+[01:02:43] [Async Chat Thread - #0/INFO]: <zkannek12> solo cambias el nick al q tienes en el juego[m
+
+[01:02:45] [Async Chat Thread - #0/INFO]: <zkannek12> yafue[m
+
+[01:04:35] [Server thread/INFO]: zkannek12 issued server command: /home bigsam
+[01:05:24] [Async Chat Thread - #1/INFO]: <TiaRosario> a que hora cierra[m
+
+[01:05:37] [Async Chat Thread - #1/INFO]: <zkannek12> en 1h y media[m
+
+[01:05:49] [Async Chat Thread - #1/INFO]: <zkannek12> tipo 9 y 30[m
+
+[01:05:55] [Async Chat Thread - #1/INFO]: <TiaRosario> en 40 min me voy creo xd[m
+
+[01:06:14] [Async Chat Thread - #1/INFO]: <zkannek12> oe[m
+
+[01:06:16] [Async Chat Thread - #1/INFO]: <zkannek12> y yames[m
+
+[01:06:17] [Async Chat Thread - #1/INFO]: <zkannek12> ?[m
+
+[01:06:24] [Async Chat Thread - #1/INFO]: <TiaRosario> tiene futbol[m
+
+[01:06:36] [Async Chat Thread - #1/INFO]: <zkannek12> pero si para puro palo[m
+
+[01:06:38] [Async Chat Thread - #1/INFO]: <zkannek12> nah broma[m
+
+[01:06:44] [Async Chat Thread - #1/INFO]: <TiaRosario> xd[m
+
+[01:06:49] [Async Chat Thread - #1/INFO]: <zkannek12> q despues mete unos rifles[m
+
+[01:06:51] [Async Chat Thread - #1/INFO]: <zkannek12> que dan miedo[m
+
+[01:06:56] [Async Chat Thread - #1/INFO]: <TiaRosario> si[m
+
+[01:07:44] [Server thread/INFO]: TiaRosario issued server command: /kit
+[01:07:45] [Server thread/INFO]: [0;30;1m[[0;36;1mPlayerKits[0;32;1m²[0;30;1m] [0;37;22mSound Name: [0;31;1mBLOCK_NOTE_BLOCK_PLING [0;37;22mis not valid. Change it in the config![m
+
+[01:08:05] [Server thread/INFO]: TiaRosario issued server command: /kit
+[01:08:07] [Server thread/INFO]: [0;30;1m[[0;36;1mPlayerKits[0;32;1m²[0;30;1m] [0;37;22mSound Name: [0;31;1mBLOCK_NOTE_BLOCK_PLING [0;37;22mis not valid. Change it in the config![m
+
+[01:08:12] [Server thread/INFO]: zkannek12 issued server command: /IE RENAME a
+[01:08:17] [Server thread/INFO]: zkannek12 issued server command: /IE RENAME &6&lMata Monos
+[01:08:42] [Server thread/INFO]: TiaRosario issued server command: /kit
+[01:08:43] [Server thread/INFO]: [0;30;1m[[0;36;1mPlayerKits[0;32;1m²[0;30;1m] [0;37;22mSound Name: [0;31;1mBLOCK_NOTE_BLOCK_PLING [0;37;22mis not valid. Change it in the config![m
+
+[01:09:10] [Thread-12/INFO]: UUID of player Supernova5760 is f1f7d80b-d6a4-3235-afcb-b45a67515307
+[01:09:10] [Server thread/INFO]: Supernova5760[/[0:0:0:0:0:0:0:1]:35448] logged in with entity id 5950 at ([world]5201.699999988079, 41.0, 1645.8601913519367)
+[01:09:38] [Async Chat Thread - #2/INFO]: <Supernova5760> buenas[m
+
+[01:09:54] [Async Chat Thread - #2/INFO]: <TiaRosario> noooooo plodi va a activar hacks xq esta en su pc[m
+
+[01:09:58] [Server thread/WARN]: zkannek12 moved wrongly!
+[01:10:00] [Async Chat Thread - #2/INFO]: <zkannek12> nooo[m
+
+[01:10:07] [Async Chat Thread - #2/INFO]: <zkannek12> le caigo con ban[m
+
+[01:10:10] [Async Chat Thread - #2/INFO]: <zkannek12> como el primo[m
+
+[01:10:32] [Async Chat Thread - #2/INFO]: <Supernova5760> ._.[m
+
+[01:10:40] [Async Chat Thread - #2/INFO]: <Supernova5760> mano[m
+
+[01:10:42] [Async Chat Thread - #2/INFO]: <Supernova5760> solo quiero piedra[m
+
+[01:10:44] [Async Chat Thread - #2/INFO]: <Supernova5760> y madera[m
+
+[01:10:47] [Async Chat Thread - #2/INFO]: <Supernova5760> pa mis torres gemelas[m
+
+[01:10:48] [Async Chat Thread - #2/INFO]: <Supernova5760> XD[m
+
+[01:10:56] [Async Chat Thread - #2/INFO]: <TiaRosario> xd[m
+
+[01:11:29] [Async Chat Thread - #2/INFO]: <Supernova5760> oye marce[m
+
+[01:11:31] [Async Chat Thread - #2/INFO]: <Supernova5760> tas ahi?[m
+
+[01:11:34] [Async Chat Thread - #2/INFO]: <zkannek12> si[m
+
+[01:11:36] [Async Chat Thread - #2/INFO]: <Supernova5760> ya[m
+
+[01:11:42] [Async Chat Thread - #2/INFO]: <Supernova5760> me das la piedra q dijiste? XD[m
+
+[01:11:47] [Async Chat Thread - #2/INFO]: <zkannek12> ya[m
+
+[01:11:50] [Async Chat Thread - #2/INFO]: <zkannek12> te doy 1 stack[m
+
+[01:11:56] [Async Chat Thread - #2/INFO]: <Supernova5760> :c[m
+
+[01:12:05] [Async Chat Thread - #2/INFO]: <TiaRosario> yo estoy re lejos si me encuentran son jakers[m
+
+[01:12:13] [Async Chat Thread - #2/INFO]: <Supernova5760> x2[m
+
+[01:13:34] [Server thread/INFO]: Supernova5760 issued server command: /home BASE
+[01:13:52] [Async Chat Thread - #3/INFO]: <Supernova5760> ahora si[m
+
+[01:13:56] [Async Chat Thread - #3/INFO]: <Supernova5760> que bloqueen la pagina[m
+
+[01:14:00] [Async Chat Thread - #3/INFO]: <Supernova5760> haber si pueden[m
+
+[01:15:31] [Async Chat Thread - #4/INFO]: <Supernova5760> oe marce[m
+
+[01:15:37] [Async Chat Thread - #4/INFO]: <Supernova5760> estudiaste high math?[m
+
+[01:15:45] [Async Chat Thread - #4/INFO]: <TiaRosario> MRD[m
+
+[01:16:13] [Async Chat Thread - #4/INFO]: <zkannek12> nop[m
+
+[01:16:18] [Async Chat Thread - #4/INFO]: <zkannek12> estudie[m
+
+[01:16:21] [Async Chat Thread - #4/INFO]: <zkannek12> como reprobar[m
+
+[01:16:30] [Async Chat Thread - #4/INFO]: <Supernova5760> uy[m
+
+[01:16:38] [Async Chat Thread - #4/INFO]: <Supernova5760> yo estudie para una B[m
+
+[01:16:56] [Server thread/INFO]: zkannek12 lost connection: Disconnected
+[01:16:56] [Server thread/INFO]: zkannek12 left the game.
+[01:16:59] [Async Chat Thread - #4/INFO]: <TiaRosario> conformsmo[m
+
+[01:17:11] [Async Chat Thread - #4/INFO]: <Supernova5760> en un dia no es q pueda hacer mucho sabes[m
+
+[01:17:12] [Async Chat Thread - #4/INFO]: <Supernova5760> xd[m
+
+[01:17:29] [Async Chat Thread - #4/INFO]: <TiaRosario> yo no dudo de mis conocimientos B)[m
+
+[01:17:40] [Async Chat Thread - #4/INFO]: <Supernova5760> xd[m
+
+[01:17:55] [Async Chat Thread - #4/INFO]: <TiaRosario> (voy a sacar Calvo)[m
+
+[01:18:09] [Async Chat Thread - #4/INFO]: <Supernova5760> pinche calvo[m
+
+[01:18:30] [Async Chat Thread - #4/INFO]: <Supernova5760> encima el examen es peso 3[m
+
+[01:18:38] [Async Chat Thread - #4/INFO]: <Supernova5760> y high math sale en notas como peso 2[m
+
+[01:28:43] [Server thread/INFO]: Supernova5760 issued server command: /home SPAWN
+[01:36:44] [Server thread/INFO]: TiaRosario lost connection: Disconnected
+[01:36:44] [Server thread/INFO]: TiaRosario left the game.
+[01:37:25] [Thread-14/INFO]: UUID of player TiaRosario is 33c313f1-22b1-3c93-b865-156b197b6ea3
+[01:37:25] [Server thread/INFO]: TiaRosario[/[0:0:0:0:0:0:0:1]:49232] logged in with entity id 13069 at ([world]-2437.4056667538102, 9.0, -2448.628997829737)
+[01:37:38] [Server thread/INFO]: Supernova5760 issued server command: /home BASE
+[01:38:19] [Thread-15/INFO]: UUID of player BigSam is a2fe25f4-18df-3c69-9d71-5aac758b2e87
+[01:38:19] [Server thread/INFO]: BigSam[/[0:0:0:0:0:0:0:1]:58174] logged in with entity id 13399 at ([world]-246.08144785971052, 185.0, 363.0443902439287)
+[01:39:02] [Server thread/INFO]: §7BigSam fell from a high place
+[01:39:07] [Server thread/INFO]: BigSam issued server command: /back
+[01:39:10] [Async Chat Thread - #5/INFO]: <BigSam> maldito lag[m
+
+[01:39:38] [Server thread/INFO]: BigSam issued server command: /home terraza
+[01:39:40] [Server thread/INFO]: BigSam issued server command: /home casa
+[01:43:29] [Async Chat Thread - #6/INFO]: <Supernova5760> big sam[m
+
+[01:43:32] [Async Chat Thread - #6/INFO]: <BigSam> q[m
+
+[01:43:33] [Async Chat Thread - #6/INFO]: <Supernova5760> me vendes piedra?[m
+
+[01:43:42] [Async Chat Thread - #6/INFO]: <BigSam> no tengo[m
+
+[01:43:48] [Async Chat Thread - #6/INFO]: <Supernova5760> nimodo[m
+
+[01:43:54] [Async Chat Thread - #6/INFO]: <BigSam> pero puedo conseguirte dsp[m
+
+[01:43:54] [Async Chat Thread - #6/INFO]: <TiaRosario> yo tengo xd[m
+
+[01:43:59] [Async Chat Thread - #6/INFO]: <Supernova5760> a cuanto vendes[m
+
+[01:44:07] [Async Chat Thread - #6/INFO]: <TiaRosario> 1 stak 1 diamante[m
+
+[01:44:23] [Async Chat Thread - #6/INFO]: <Supernova5760> pucha[m
+
+[01:44:49] [Async Chat Thread - #6/INFO]: <BigSam> yo 1 stack a cambio de 20 de hierro y 20 troncos de madera[m
+
+[01:45:06] [Async Chat Thread - #6/INFO]: <Supernova5760> asu[m
+
+[01:45:10] [Async Chat Thread - #6/INFO]: <Supernova5760> muy carito :v[m
+
+[01:45:29] [Thread-16/INFO]: UUID of player sopadetamarindo is 42d51bb5-7433-346e-8b8b-24c3fdab8530
+[01:45:29] [Server thread/INFO]: sopadetamarindo[/[0:0:0:0:0:0:0:1]:45438] logged in with entity id 15514 at ([world]-189.5, 68.0, 251.5)
+[01:45:37] [Server thread/INFO]: §7BigSam fell from a high place
+[01:45:42] [Server thread/INFO]: BigSam issued server command: /back
+[01:45:42] [Async Chat Thread - #6/INFO]: <Supernova5760> yoshi[m
+
+[01:45:44] [Async Chat Thread - #6/INFO]: <BigSam> lag[m
+
+[01:46:06] [Async Chat Thread - #6/INFO]: <Supernova5760> ya ayquipa[m
+
+[01:46:11] [Async Chat Thread - #6/INFO]: <Supernova5760> 2 stacks x un diamante[m
+
+[01:46:14] [Thread-17/INFO]: UUID of player zkannek12 is 542bf63e-34dc-3d7c-9fba-a62fdf6815f3
+[01:46:14] [Server thread/INFO]: zkannek12[/[0:0:0:0:0:0:0:1]:39420] logged in with entity id 16127 at ([world]-281.30000001192093, 91.0, 375.69999998807907)
+[01:46:16] [Async Chat Thread - #6/INFO]: <Supernova5760> y 10 de hierro[m
+
+[01:46:18] [Async Chat Thread - #6/INFO]: <TiaRosario> no[m
+
+[01:46:30] [Async Chat Thread - #6/INFO]: <zkannek12> hola people[m
+
+[01:46:32] [Async Chat Thread - #6/INFO]: <Supernova5760> bueno[m
+
+[01:46:33] [Async Chat Thread - #6/INFO]: <Supernova5760> toca minar[m
+
+[01:46:35] [Async Chat Thread - #6/INFO]: <Supernova5760> oe marce[m
+
+[01:46:37] [Async Chat Thread - #6/INFO]: <zkannek12> q[m
+
+[01:46:38] [Async Chat Thread - #6/INFO]: <Supernova5760> me das la piedra? xd[m
+
+[01:46:39] [Async Chat Thread - #6/INFO]: <BigSam> marcelo[m
+
+[01:46:41] [Async Chat Thread - #6/INFO]: <zkannek12> ya[m
+
+[01:46:44] [Server thread/INFO]: zkannek12 issued server command: /tpa Supernova5760
+[01:46:47] [Server thread/INFO]: Supernova5760 issued server command: /tpaccept
+[01:46:47] [Async Chat Thread - #6/INFO]: <BigSam> no jodas mano, si vas a salir tapa la entrada[m
+
+[01:46:47] [Server thread/INFO]: Supernova5760 issued server command: /tpaccept
+[01:47:13] [Async Chat Thread - #6/INFO]: <Supernova5760> gracias bro[m
+
+[01:47:20] [Async Chat Thread - #6/INFO]: <zkannek12> son 10 diamantes[m
+
+[01:47:27] [Async Chat Thread - #6/INFO]: <Supernova5760> tamare[m
+
+[01:47:34] [Async Chat Thread - #6/INFO]: <Supernova5760> pinche inflacion[m
+
+[01:47:38] [Async Chat Thread - #6/INFO]: <zkannek12> te lo dejo en 3 si quieres[m
+
+[01:47:43] [Async Chat Thread - #6/INFO]: <Supernova5760> ok[m
+
+[01:47:51] [Async Chat Thread - #6/INFO]: <BigSam> yo le ofreci 1 stack x 20 de hierro y 20 troncos de madera[m
+
+[01:48:02] [Server thread/INFO]: TiaRosario lost connection: Disconnected
+[01:48:02] [Server thread/INFO]: TiaRosario left the game.
+[01:48:05] [Server thread/INFO]: BigSam lost connection: Disconnected
+[01:48:05] [Server thread/INFO]: BigSam left the game.
+[01:48:13] [Thread-18/INFO]: UUID of player TiaRosario is 33c313f1-22b1-3c93-b865-156b197b6ea3
+[01:48:13] [Server thread/INFO]: TiaRosario[/[0:0:0:0:0:0:0:1]:49394] logged in with entity id 17253 at ([world]-2508.4213160837344, 10.0, -2403.614277812539)
+[01:48:47] [Server thread/INFO]: zkannek12 issued server command: /tpahere sopadetamarindo
+[01:48:59] [Server thread/INFO]: sopadetamarindo issued server command: /tpaccept
+[01:49:06] [Server thread/INFO]: sopadetamarindo issued server command: /tpaccept
+[01:49:08] [Server thread/INFO]: zkannek12 issued server command: /tpahere sopadetamarindo
+[01:49:08] [Async Chat Thread - #7/INFO]: <Supernova5760> y pensar q yo quemaba la piedra antes[m
+
+[01:49:12] [Server thread/INFO]: sopadetamarindo issued server command: /tpaccept
+[01:49:29] [Server thread/INFO]: sopadetamarindo issued server command: /kit
+[01:49:30] [Server thread/INFO]: zkannek12 issued server command: /kit
+[01:49:31] [Server thread/INFO]: [0;30;1m[[0;36;1mPlayerKits[0;32;1m²[0;30;1m] [0;37;22mSound Name: [0;31;1mBLOCK_NOTE_BLOCK_PLING [0;37;22mis not valid. Change it in the config![m
+
+[01:49:40] [Server thread/INFO]: sopadetamarindo has just earned the achievement [Taking Inventory]
+[01:50:28] [Server thread/INFO]: zkannek12 issued server command: /summon creeper
+[01:50:28] [Server thread/WARN]: Skipping Entity with id creeper
+[01:50:28] [Server thread/INFO]: [zkannek12: Unable to summon object]
+[01:50:43] [Server thread/INFO]: zkannek12 issued server command: /summon Creeper
+[01:50:43] [Server thread/INFO]: [zkannek12: Object successfully summoned]
+[01:54:01] [Server thread/INFO]: zkannek12 issued server command: /give
+[01:54:09] [Server thread/INFO]: zkannek12 issued server command: /give zkannek12 minecraft:boat
+[01:54:09] [Server thread/INFO]: [zkannek12: Given [Boat] * 1 to zkannek12]
+[01:54:17] [Server thread/INFO]: zkannek12 issued server command: /give zkannek12 minecraft:boat
+[01:54:17] [Server thread/INFO]: [zkannek12: Given [Boat] * 1 to zkannek12]
+[01:54:58] [Server thread/INFO]: zkannek12 issued server command: /give zkannek12 minecraft:boat
+[01:54:58] [Server thread/INFO]: [zkannek12: Given [Boat] * 1 to zkannek12]
+[01:56:37] [Server thread/WARN]: zkannek12 moved too quickly! -9.576038620506552,-0.049045098071196946,-8.465927454648863 (-9.576038620506552, -0.049045098071196946, -8.465927454648863)
+[01:56:45] [Server thread/INFO]: TiaRosario lost connection: Disconnected
+[01:56:45] [Server thread/INFO]: TiaRosario left the game.
+[01:57:24] [Server thread/INFO]: zkannek12 lost connection: Disconnected
+[01:57:24] [Server thread/INFO]: zkannek12 left the game.
+[01:57:27] [Thread-20/INFO]: UUID of player zkannek12 is 542bf63e-34dc-3d7c-9fba-a62fdf6815f3
+[01:57:27] [Server thread/INFO]: zkannek12[/[0:0:0:0:0:0:0:1]:36442] logged in with entity id 19885 at ([world]5795.692691303411, 66.0, 2083.213329195366)
+[01:57:29] [Thread-21/INFO]: UUID of player TiaRosario is 33c313f1-22b1-3c93-b865-156b197b6ea3
+[01:57:29] [Server thread/INFO]: TiaRosario[/[0:0:0:0:0:0:0:1]:36450] logged in with entity id 19886 at ([world]-2565.326325095531, 10.0, -2455.6252042124124)
+[01:57:37] [Server thread/INFO]: TiaRosario lost connection: Disconnected
+[01:57:37] [Server thread/INFO]: TiaRosario left the game.
+[01:57:47] [Thread-22/INFO]: UUID of player TiaRosario is 33c313f1-22b1-3c93-b865-156b197b6ea3
+[01:57:47] [Server thread/INFO]: TiaRosario[/[0:0:0:0:0:0:0:1]:36756] logged in with entity id 19963 at ([world]-2565.326325095531, 10.0, -2455.6252042124124)
+[01:57:54] [Server thread/INFO]: §7TiaRosario burned to death
+[01:58:01] [Async Chat Thread - #8/INFO]: <Supernova5760> f[m
+
+[01:58:04] [Server thread/INFO]: TiaRosario issued server command: /back
+[01:58:12] [Async Chat Thread - #8/INFO]: <TiaRosario> soy down[m
+
+[01:59:58] [Server thread/INFO]: TiaRosario lost connection: Disconnected
+[01:59:58] [Server thread/INFO]: TiaRosario left the game.
+[02:00:22] [Server thread/INFO]: zkannek12 issued server command: /tp sopadetamarindo
+[02:00:22] [Server thread/INFO]: [zkannek12: Teleported zkannek12 to sopadetamarindo]
+[02:09:28] [Thread-23/INFO]: UUID of player TiaRosario is 33c313f1-22b1-3c93-b865-156b197b6ea3
+[02:09:28] [Server thread/INFO]: TiaRosario[/[0:0:0:0:0:0:0:1]:45338] logged in with entity id 25619 at ([world]-2548.300000011921, 12.0, -2456.0793295610074)
+[02:09:44] [Server thread/INFO]: zkannek12 issued server command: /tp sopadetamarindo
+[02:09:44] [Server thread/INFO]: [zkannek12: Teleported zkannek12 to sopadetamarindo]
+[02:10:34] [Server thread/INFO]: §7TiaRosario has just earned the achievement [Acquire Hardware]
+[02:10:52] [Server thread/INFO]: zkannek12 issued server command: /tp sopadetamarindo
+[02:10:52] [Server thread/INFO]: [zkannek12: Teleported zkannek12 to sopadetamarindo]
+[02:14:19] [Server thread/INFO]: zkannek12 issued server command: /give zkannek12 minecraft:boat
+[02:14:19] [Server thread/INFO]: [zkannek12: Given [Boat] * 1 to zkannek12]
+[02:14:22] [Server thread/INFO]: zkannek12 issued server command: /give zkannek12 minecraft:boat
+[02:14:22] [Server thread/INFO]: [zkannek12: Given [Boat] * 1 to zkannek12]
+[02:15:04] [Server thread/WARN]: zkannek12 moved too quickly! -8.499838456313228,-0.019969612626219657,-6.530110703079572 (-8.499838456313228, -0.019969612626219657, -6.530110703079572)
+[02:16:01] [Server thread/INFO]: Supernova5760 issued server command: /sethome SPAWNER
+[02:16:04] [Server thread/INFO]: zkannek12 issued server command: /tp sopadetamarindo zkannek12
+[02:16:04] [Server thread/INFO]: [zkannek12: Teleported sopadetamarindo to zkannek12]
+[02:17:19] [Server thread/INFO]: zkannek12 issued server command: /sethome base1
+[02:17:52] [Server thread/INFO]: zkannek12 issued server command: /weather c
+[02:17:52] [Server thread/INFO]: §7TiaRosario has just earned the achievement [Time to Strike!]
+[02:17:54] [Server thread/INFO]: zkannek12 issued server command: /weather clear
+[02:17:54] [Server thread/INFO]: [zkannek12: Changing to clear weather]
+[02:17:59] [Server thread/INFO]: zkannek12 issued server command: /time set day
+[02:17:59] [Server thread/INFO]: [zkannek12: Set the time to 1000]
+[02:18:07] [Thread-24/INFO]: UUID of player BigSam is a2fe25f4-18df-3c69-9d71-5aac758b2e87
+[02:18:07] [Server thread/INFO]: BigSam[/[0:0:0:0:0:0:0:1]:38636] logged in with entity id 31340 at ([world]-299.58580615001057, 90.0, 371.1415009377166)
+[02:18:32] [Server thread/INFO]: BigSam issued server command: /tell zkannek12 ola
+[02:19:24] [Server thread/INFO]: BigSam lost connection: Disconnected
+[02:19:24] [Server thread/INFO]: BigSam left the game.
+[02:19:29] [Thread-25/INFO]: UUID of player BigSam is a2fe25f4-18df-3c69-9d71-5aac758b2e87
+[02:19:29] [Server thread/INFO]: BigSam[/[0:0:0:0:0:0:0:1]:49250] logged in with entity id 33074 at ([world]-292.2903714854318, 91.0, 369.8102838858418)
+[02:19:41] [Server thread/INFO]: zkannek12 issued server command: /msg
+[02:19:48] [Server thread/INFO]: zkannek12 issued server command: /tell BigSam a
+[02:19:51] [Server thread/INFO]: BigSam issued server command: /home casa
+[02:20:06] [Server thread/INFO]: BigSam issued server command: /tell zkannek12 tu fuiste el troll que me puso lapizlasuli en mi agua?
+[02:20:16] [Server thread/INFO]: zkannek12 issued server command: /sethome meset
+[02:20:26] [Server thread/INFO]: zkannek12 issued server command: /give zkannek12 minecraft:boat
+[02:20:26] [Server thread/INFO]: [zkannek12: Given [Boat] * 1 to zkannek12]
+[02:20:26] [Server thread/INFO]: §7TiaRosario has just earned the achievement [DIAMONDS!]
+[02:20:31] [Async Chat Thread - #9/INFO]: <Supernova5760> ?[m
+
+[02:20:32] [Server thread/INFO]: zkannek12 issued server command: /tell BigSam xd
+[02:20:38] [Async Chat Thread - #9/INFO]: <Supernova5760> no tenias antes[m
+
+[02:20:43] [Server thread/INFO]: BigSam issued server command: /tell zkannek12 t pego
+[02:21:42] [Server thread/INFO]: zkannek12 issued server command: /give zkannek12 minecraft:boat
+[02:21:42] [Server thread/INFO]: [zkannek12: Given [Boat] * 1 to zkannek12]
+[02:23:03] [Server thread/INFO]: BigSam issued server command: /sethome encantar
+[02:23:06] [Server thread/INFO]: BigSam issued server command: /homes
+[02:23:14] [Server thread/INFO]: BigSam issued server command: /home casa2
+[02:24:10] [Server thread/INFO]: zkannek12 issued server command: /give zkannek12 minecraft:arrow 220
+[02:24:10] [Server thread/INFO]: [zkannek12: The number you have entered (220) is too big, it must be at most 64]
+[02:24:14] [Server thread/INFO]: zkannek12 issued server command: /give zkannek12 minecraft:arrow 20
+[02:24:14] [Server thread/INFO]: [zkannek12: Given [Arrow] * 20 to zkannek12]
+[02:25:44] [Server thread/INFO]: Supernova5760 issued server command: /home BASE
+[02:27:29] [Server thread/INFO]: zkannek12 issued server command: /gh
+[02:27:31] [Server thread/INFO]: §7BigSam fell from a high place
+[02:27:36] [Server thread/INFO]: BigSam issued server command: /back
+[02:27:43] [Server thread/INFO]: zkannek12 issued server command: /gh allRods
+[02:27:57] [Server thread/INFO]: zkannek12 issued server command: /gh list
+[02:28:15] [Server thread/INFO]: zkannek12 issued server command: /gh create ñañes
+[02:28:20] [Server thread/INFO]: zkannek12 issued server command: /gh create Karnoso
+[02:28:29] [Server thread/INFO]: BigSam issued server command: /tell zkannek12 OE
+[02:28:39] [Async Chat Thread - #10/INFO]: <BigSam> OE[m
+
+[02:28:44] [Async Chat Thread - #10/INFO]: <zkannek12> JHASASJAJHS[m
+
+[02:28:48] [Async Chat Thread - #10/INFO]: <Supernova5760> q paso[m
+
+[02:28:51] [Server thread/INFO]: BigSam issued server command: /tell zkannek12 oe huevon
+[02:28:57] [Server thread/INFO]: BigSam issued server command: /tell zkannek12 q hiciste con mis vacas
+[02:28:58] [Async Chat Thread - #10/INFO]: <sopadetamarindo> q paso[m
+
+[02:29:01] [Server thread/INFO]: zkannek12 issued server command: /tell BigSam q
+[02:29:03] [Server thread/INFO]: zkannek12 issued server command: /tell BigSam no
+[02:29:07] [Server thread/INFO]: BigSam issued server command: /tell zkannek12 no estan wbn
+[02:29:11] [Server thread/INFO]: zkannek12 issued server command: /tell BigSam pense q era lo de la lapiz
+[02:29:12] [Server thread/INFO]: BigSam issued server command: /tell zkannek12 y mis cultivos tampoco
+[02:29:20] [Server thread/INFO]: zkannek12 issued server command: /tell BigSam estoy en 10k 10k
+[02:29:26] [Server thread/INFO]: BigSam issued server command: /tell zkannek12 ?
+[02:29:28] [Server thread/INFO]: zkannek12 issued server command: /tell BigSam como los voy a matar
+[02:29:33] [Server thread/INFO]: BigSam issued server command: /tell zkannek12 tu estabas en mi base antes
+[02:29:38] [Server thread/INFO]: zkannek12 issued server command: /tell BigSam si pero me fui
+[02:29:41] [Server thread/INFO]: BigSam issued server command: /tell zkannek12 no hay agua, ni cultivos, ni vacas
+[02:29:44] [Server thread/INFO]: zkannek12 issued server command: /tell BigSam plody la vio tmb
+[02:29:51] [Async Chat Thread - #10/INFO]: <zkannek12> y ayquipa[m
+
+[02:30:07] [Server thread/INFO]: zkannek12 issued server command: /give zkannek12 minecraft:boat
+[02:30:07] [Server thread/INFO]: [zkannek12: Given [Boat] * 1 to zkannek12]
+[02:30:08] [Server thread/INFO]: zkannek12 issued server command: /give zkannek12 minecraft:boat
+[02:30:08] [Server thread/INFO]: [zkannek12: Given [Boat] * 1 to zkannek12]
+[02:30:09] [Async Chat Thread - #10/INFO]: <Supernova5760> ?[m
+
+[02:30:12] [Server thread/INFO]: zkannek12 issued server command: /weather clear
+[02:30:12] [Server thread/INFO]: [zkannek12: Changing to clear weather]
+[02:30:16] [Async Chat Thread - #10/INFO]: <TiaRosario> yo estoy en san pincho[m
+
+[02:30:16] [Async Chat Thread - #10/INFO]: <BigSam> nada[m
+
+[02:30:19] [Server thread/INFO]: zkannek12 issued server command: /time set day
+[02:30:19] [Server thread/INFO]: [zkannek12: Set the time to 1000]
+[02:30:23] [Async Chat Thread - #10/INFO]: <sopadetamarindo> sdfsdf[m
+
+[02:30:25] [Async Chat Thread - #10/INFO]: <BigSam> me robaron cosas[m
+
+[02:30:28] [Async Chat Thread - #10/INFO]: <BigSam> no se quien[m
+
+[02:30:33] [Async Chat Thread - #10/INFO]: <BigSam> mataron todo mi ganado xD[m
+
+[02:30:34] [Async Chat Thread - #10/INFO]: <Supernova5760> f[m
+
+[02:30:38] [Async Chat Thread - #10/INFO]: <Supernova5760> xd[m
+
+[02:30:44] [Async Chat Thread - #10/INFO]: <zkannek12> ya no hay milanesa[m
+
+[02:30:47] [Async Chat Thread - #10/INFO]: <zkannek12> xdxd[m
+
+[02:31:17] [Server thread/INFO]: zkannek12 issued server command: /gh give karnoso
+[02:31:18] [Server thread/INFO]: §7BigSam has just earned the achievement [Cow Tipper]
+[02:31:23] [Server thread/INFO]: zkannek12 issued server command: /gh give karnoso zkannek12
+[02:31:35] [Async Chat Thread - #10/INFO]: <BigSam> se reiniciaron todos los logros?[m
+
+[02:31:39] [Async Chat Thread - #10/INFO]: <zkannek12> nose[m
+
+[02:31:41] [Async Chat Thread - #10/INFO]: <zkannek12> tan raros[m
+
+[02:31:46] [Async Chat Thread - #10/INFO]: <zkannek12> ni pienso arreglarlos[m
+
+[02:31:52] [Server thread/INFO]: TiaRosario lost connection: Disconnected
+[02:31:52] [Server thread/INFO]: TiaRosario left the game.
+[02:31:58] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #19885 to (-6.11131376571311,-1.4580841031139022,2.3766237157291052).
+[02:31:58] [Server thread/WARN]: java.lang.Exception: Stack trace
+
+[02:31:58] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
+
+[02:31:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
+
+[02:31:58] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.pullPlayer(GrapplingHook.java:312)
+
+[02:31:58] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.checkAndPull(GrapplingHook.java:280)
+
+[02:31:58] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.events.GrapplingHookEvents.onRectract(GrapplingHookEvents.java:26)
+
+[02:31:58] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[02:31:58] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[02:31:58] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300)
+
+[02:31:58] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78)
+
+[02:31:58] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+
+[02:31:58] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517)
+
+[02:31:58] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502)
+
+[02:31:58] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.EntityFishingHook.l(EntityFishingHook.java:461)
+
+[02:31:58] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemFishingRod.a(ItemFishingRod.java:15)
+
+[02:31:58] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemStack.a(ItemStack.java:236)
+
+[02:31:58] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerInteractManager.useItem(PlayerInteractManager.java:371)
+
+[02:31:58] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:734)
+
+[02:31:58] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:52)
+
+[02:31:58] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:1)
+
+[02:31:58] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+
+[02:31:58] [Server thread/WARN]: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+
+[02:31:58] [Server thread/WARN]: 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+
+[02:31:58] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+
+[02:31:58] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774)
+
+[02:31:58] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
+
+[02:31:58] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
+
+[02:31:58] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
+
+[02:31:58] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[02:32:09] [Server thread/INFO]: zkannek12 issued server command: /give zkannek12 minecraft:boat
+[02:32:09] [Server thread/INFO]: [zkannek12: Given [Boat] * 1 to zkannek12]
+[02:32:17] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #19885 to (5.27091621475792,-2.107985553681347,5.213942817288028).
+[02:32:17] [Server thread/WARN]: java.lang.Exception: Stack trace
+
+[02:32:17] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
+
+[02:32:17] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
+
+[02:32:17] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.pullPlayer(GrapplingHook.java:312)
+
+[02:32:17] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.checkAndPull(GrapplingHook.java:280)
+
+[02:32:17] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.events.GrapplingHookEvents.onRectract(GrapplingHookEvents.java:26)
+
+[02:32:17] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[02:32:17] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[02:32:17] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300)
+
+[02:32:17] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78)
+
+[02:32:17] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+
+[02:32:17] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517)
+
+[02:32:17] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502)
+
+[02:32:17] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.EntityFishingHook.l(EntityFishingHook.java:461)
+
+[02:32:17] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemFishingRod.a(ItemFishingRod.java:15)
+
+[02:32:17] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemStack.a(ItemStack.java:236)
+
+[02:32:17] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerInteractManager.useItem(PlayerInteractManager.java:371)
+
+[02:32:17] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:734)
+
+[02:32:17] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:52)
+
+[02:32:17] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:1)
+
+[02:32:17] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+
+[02:32:17] [Server thread/WARN]: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+
+[02:32:17] [Server thread/WARN]: 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+
+[02:32:17] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+
+[02:32:17] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774)
+
+[02:32:17] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
+
+[02:32:17] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
+
+[02:32:17] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
+
+[02:32:17] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[02:32:22] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #19885 to (5.276619037393184,-2.3209912015299055,5.338250166782637).
+[02:32:22] [Server thread/WARN]: java.lang.Exception: Stack trace
+
+[02:32:22] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
+
+[02:32:22] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
+
+[02:32:22] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.pullPlayer(GrapplingHook.java:312)
+
+[02:32:22] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.checkAndPull(GrapplingHook.java:280)
+
+[02:32:22] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.events.GrapplingHookEvents.onRectract(GrapplingHookEvents.java:26)
+
+[02:32:22] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[02:32:22] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[02:32:22] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300)
+
+[02:32:22] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78)
+
+[02:32:22] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+
+[02:32:22] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517)
+
+[02:32:22] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502)
+
+[02:32:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.EntityFishingHook.l(EntityFishingHook.java:461)
+
+[02:32:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemFishingRod.a(ItemFishingRod.java:15)
+
+[02:32:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemStack.a(ItemStack.java:236)
+
+[02:32:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerInteractManager.useItem(PlayerInteractManager.java:371)
+
+[02:32:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:734)
+
+[02:32:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:52)
+
+[02:32:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:1)
+
+[02:32:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+
+[02:32:22] [Server thread/WARN]: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+
+[02:32:22] [Server thread/WARN]: 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+
+[02:32:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+
+[02:32:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774)
+
+[02:32:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
+
+[02:32:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
+
+[02:32:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
+
+[02:32:22] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[02:32:47] [Server thread/INFO]: BigSam issued server command: /tell zkannek12 oe, no me diste la caña de azucar que tenia
+[02:33:05] [Server thread/INFO]: zkannek12 issued server command: /tell BigSam estoy en narnia
+[02:33:08] [Server thread/INFO]: zkannek12 issued server command: /tell BigSam dsp
+[02:33:26] [Thread-27/INFO]: UUID of player TiaRosario is 33c313f1-22b1-3c93-b865-156b197b6ea3
+[02:33:26] [Server thread/INFO]: TiaRosario[/[0:0:0:0:0:0:0:1]:54052] logged in with entity id 44818 at ([world]-2673.5493714301792, 11.0, -2443.699999988079)
+[02:34:05] [Server thread/INFO]: BigSam issued server command: /tell zkannek12 oe, y el spawn q encontraste?
+[02:34:12] [Server thread/INFO]: BigSam issued server command: /tell zkannek12 el d bichos
+[02:35:23] [Server thread/INFO]: Supernova5760 issued server command: /home SPAWNER
+[02:36:00] [Server thread/INFO]: zkannek12 issued server command: /weather clear
+[02:36:00] [Server thread/INFO]: [zkannek12: Changing to clear weather]
+[02:36:40] [Async Chat Thread - #11/INFO]: <Supernova5760> marce[m
+
+[02:36:44] [Async Chat Thread - #11/INFO]: <Supernova5760> me vendes mas piedra o no tienes[m
+
+[02:37:34] [Server thread/INFO]: zkannek12 issued server command: /sethome base1
+[02:37:36] [Server thread/INFO]: zkannek12 issued server command: /sethome base2
+[02:37:41] [Server thread/INFO]: zkannek12 issued server command: /give zkannek12 minecraft:boat
+[02:37:41] [Server thread/INFO]: [zkannek12: Given [Boat] * 1 to zkannek12]
+[02:37:43] [Server thread/INFO]: zkannek12 issued server command: /tp sopadetamarindo
+[02:37:43] [Server thread/INFO]: [zkannek12: Teleported zkannek12 to sopadetamarindo]
+[02:38:33] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #19885 to (-2.5200009846150926,-2.896163863183369,7.429648677705387).
+[02:38:33] [Server thread/WARN]: java.lang.Exception: Stack trace
+
+[02:38:33] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
+
+[02:38:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
+
+[02:38:33] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.pullPlayer(GrapplingHook.java:312)
+
+[02:38:33] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.checkAndPull(GrapplingHook.java:280)
+
+[02:38:33] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.events.GrapplingHookEvents.onRectract(GrapplingHookEvents.java:26)
+
+[02:38:33] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[02:38:33] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[02:38:33] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300)
+
+[02:38:33] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78)
+
+[02:38:33] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+
+[02:38:33] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517)
+
+[02:38:33] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502)
+
+[02:38:33] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.EntityFishingHook.l(EntityFishingHook.java:449)
+
+[02:38:33] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemFishingRod.a(ItemFishingRod.java:15)
+
+[02:38:33] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemStack.a(ItemStack.java:236)
+
+[02:38:33] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerInteractManager.useItem(PlayerInteractManager.java:371)
+
+[02:38:33] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:734)
+
+[02:38:33] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:52)
+
+[02:38:33] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:1)
+
+[02:38:33] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+
+[02:38:33] [Server thread/WARN]: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+
+[02:38:33] [Server thread/WARN]: 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+
+[02:38:33] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+
+[02:38:33] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774)
+
+[02:38:33] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
+
+[02:38:33] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
+
+[02:38:33] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
+
+[02:38:33] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[02:38:38] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #19885 to (-2.339118190370173,-1.3426823133159491,-5.2858677354800365).
+[02:38:38] [Server thread/WARN]: java.lang.Exception: Stack trace
+
+[02:38:38] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
+
+[02:38:38] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
+
+[02:38:38] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.pullPlayer(GrapplingHook.java:312)
+
+[02:38:38] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.checkAndPull(GrapplingHook.java:280)
+
+[02:38:38] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.events.GrapplingHookEvents.onRectract(GrapplingHookEvents.java:26)
+
+[02:38:38] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[02:38:38] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[02:38:38] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300)
+
+[02:38:38] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78)
+
+[02:38:38] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+
+[02:38:38] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517)
+
+[02:38:38] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502)
+
+[02:38:38] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.EntityFishingHook.l(EntityFishingHook.java:461)
+
+[02:38:38] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemFishingRod.a(ItemFishingRod.java:15)
+
+[02:38:38] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemStack.a(ItemStack.java:236)
+
+[02:38:38] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerInteractManager.useItem(PlayerInteractManager.java:371)
+
+[02:38:38] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:734)
+
+[02:38:38] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:52)
+
+[02:38:38] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:1)
+
+[02:38:38] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+
+[02:38:38] [Server thread/WARN]: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+
+[02:38:38] [Server thread/WARN]: 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+
+[02:38:38] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+
+[02:38:38] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774)
+
+[02:38:38] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
+
+[02:38:38] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
+
+[02:38:38] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
+
+[02:38:38] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[02:38:43] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #19885 to (0.1388153657063659,-2.1937013614600622,-7.27083287945516).
+[02:38:43] [Server thread/WARN]: java.lang.Exception: Stack trace
+
+[02:38:43] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
+
+[02:38:43] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
+
+[02:38:43] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.pullPlayer(GrapplingHook.java:312)
+
+[02:38:43] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.checkAndPull(GrapplingHook.java:280)
+
+[02:38:43] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.events.GrapplingHookEvents.onRectract(GrapplingHookEvents.java:26)
+
+[02:38:43] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[02:38:43] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[02:38:43] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300)
+
+[02:38:43] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78)
+
+[02:38:43] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+
+[02:38:43] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517)
+
+[02:38:43] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502)
+
+[02:38:43] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.EntityFishingHook.l(EntityFishingHook.java:449)
+
+[02:38:43] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemFishingRod.a(ItemFishingRod.java:15)
+
+[02:38:43] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemStack.a(ItemStack.java:236)
+
+[02:38:43] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerInteractManager.useItem(PlayerInteractManager.java:371)
+
+[02:38:43] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:734)
+
+[02:38:43] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:52)
+
+[02:38:43] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:1)
+
+[02:38:43] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+
+[02:38:43] [Server thread/WARN]: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+
+[02:38:43] [Server thread/WARN]: 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+
+[02:38:43] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+
+[02:38:43] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774)
+
+[02:38:43] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
+
+[02:38:43] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
+
+[02:38:43] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
+
+[02:38:43] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[02:39:03] [Server thread/INFO]: sopadetamarindo has just earned the achievement [Getting Wood]
+[02:40:32] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #19885 to (-3.1987452162801775,-1.510903499798702,-4.024951031495833).
+[02:40:32] [Server thread/WARN]: java.lang.Exception: Stack trace
+
+[02:40:32] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
+
+[02:40:32] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
+
+[02:40:32] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.pullPlayer(GrapplingHook.java:312)
+
+[02:40:32] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.checkAndPull(GrapplingHook.java:280)
+
+[02:40:32] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.events.GrapplingHookEvents.onRectract(GrapplingHookEvents.java:26)
+
+[02:40:32] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[02:40:32] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[02:40:32] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300)
+
+[02:40:32] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78)
+
+[02:40:32] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+
+[02:40:32] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517)
+
+[02:40:32] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502)
+
+[02:40:32] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.EntityFishingHook.l(EntityFishingHook.java:461)
+
+[02:40:32] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemFishingRod.a(ItemFishingRod.java:15)
+
+[02:40:32] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemStack.a(ItemStack.java:236)
+
+[02:40:32] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerInteractManager.useItem(PlayerInteractManager.java:371)
+
+[02:40:32] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:734)
+
+[02:40:32] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:52)
+
+[02:40:32] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:1)
+
+[02:40:32] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+
+[02:40:32] [Server thread/WARN]: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+
+[02:40:32] [Server thread/WARN]: 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+
+[02:40:32] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+
+[02:40:32] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774)
+
+[02:40:32] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
+
+[02:40:32] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
+
+[02:40:32] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
+
+[02:40:32] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[02:42:53] [Server thread/INFO]: zkannek12 issued server command: /tp sopadetamarindo
+[02:42:53] [Server thread/INFO]: [zkannek12: Teleported zkannek12 to sopadetamarindo]
+[02:43:08] [Server thread/INFO]: BigSam issued server command: /sethome mina
+[02:44:14] [Server thread/INFO]: Supernova5760 issued server command: /delhome SPAWNER
+[02:44:20] [Server thread/INFO]: Supernova5760 issued server command: /homes
+[02:44:27] [Server thread/INFO]: zkannek12 issued server command: /sethome base3
+[02:44:32] [Server thread/INFO]: Supernova5760 issued server command: /delhome spawner
+[02:44:37] [Server thread/INFO]: Supernova5760 issued server command: /sethome SPAWNER
+[02:45:07] [Server thread/INFO]: TiaRosario lost connection: Disconnected
+[02:45:07] [Server thread/INFO]: TiaRosario left the game.
+[02:45:14] [Server thread/INFO]: Supernova5760 issued server command: /home BASE
+[02:46:07] [Server thread/INFO]: zkannek12 issued server command: /tp sopadetamarindo
+[02:46:07] [Server thread/INFO]: [zkannek12: Teleported zkannek12 to sopadetamarindo]
+[02:46:53] [Server thread/INFO]: zkannek12 issued server command: /sethome base4
+[02:48:45] [Thread-28/INFO]: UUID of player TiaRosario is 33c313f1-22b1-3c93-b865-156b197b6ea3
+[02:48:45] [Server thread/INFO]: TiaRosario[/[0:0:0:0:0:0:0:1]:44936] logged in with entity id 89542 at ([world]-2508.214979463449, 10.0, -2403.699999988079)
+[02:52:22] [Server thread/INFO]: BigSam issued server command: /home casa
+[02:53:09] [Server thread/INFO]: zkannek12 issued server command: /weather clear
+[02:53:09] [Server thread/INFO]: [zkannek12: Changing to clear weather]
+[02:53:13] [Server thread/INFO]: zkannek12 issued server command: /time set day
+[02:53:13] [Server thread/INFO]: [zkannek12: Set the time to 1000]
+[02:53:16] [Server thread/INFO]: zkannek12 issued server command: /tp sopadetamarindo
+[02:53:16] [Server thread/INFO]: [zkannek12: Teleported zkannek12 to sopadetamarindo]
+[02:53:29] [Async Chat Thread - #12/INFO]: <BigSam> cmo van muchachos[m
+
+[02:53:37] [Server thread/INFO]: zkannek12 issued server command: /tp sopadetamarindo
+[02:53:37] [Server thread/INFO]: [zkannek12: Teleported zkannek12 to sopadetamarindo]
+[02:53:40] [Async Chat Thread - #12/INFO]: <sopadetamarindo> aun no consigo piedra[m
+
+[02:53:43] [Async Chat Thread - #12/INFO]: <zkannek12> xd[m
+
+[02:54:01] [Server thread/INFO]: BigSam issued server command: /tell zkannek12 dame mi caña de azucaaaa
+[02:54:26] [Server thread/INFO]: BigSam issued server command: /tell zkannek12 tenia 20
+[02:54:39] [Server thread/INFO]: BigSam issued server command: /tell zkannek12 dame 10 siquieres
+[02:54:49] [Server thread/INFO]: BigSam issued server command: /tell zkannek12 o 5
+[02:55:05] [Server thread/INFO]: BigSam lost connection: Disconnected
+[02:55:05] [Server thread/INFO]: BigSam left the game.
+[02:55:09] [Thread-30/INFO]: UUID of player BigSam is a2fe25f4-18df-3c69-9d71-5aac758b2e87
+[02:55:09] [Server thread/INFO]: BigSam[/[0:0:0:0:0:0:0:1]:33252] logged in with entity id 93529 at ([world]-273.42434050630186, 158.0, 359.0055497283206)
+[02:55:30] [Server thread/INFO]: zkannek12 issued server command: /give BigSam sugar_cane 10
+[02:55:30] [Server thread/INFO]: [zkannek12: There is no such item with name minecraft:sugar_cane]
+[02:55:41] [Server thread/INFO]: zkannek12 issued server command: /give BigSam sugar_cane
+[02:55:41] [Server thread/INFO]: [zkannek12: There is no such item with name minecraft:sugar_cane]
+[02:55:50] [Server thread/INFO]: zkannek12 issued server command: /give BigSam 385 20
+[02:55:50] [Server thread/INFO]: [zkannek12: There is no such item with name minecraft:385]
+[02:56:02] [Server thread/INFO]: zkannek12 issued server command: /tp BigSam
+[02:56:02] [Server thread/INFO]: [zkannek12: Teleported zkannek12 to BigSam]
+[02:56:23] [Server thread/INFO]: zkannek12 issued server command: /tp sopadetamarindo
+[02:56:23] [Server thread/INFO]: [zkannek12: Teleported zkannek12 to sopadetamarindo]
+[02:56:28] [Server thread/INFO]: BigSam issued server command: /tell zkannek12 oe pero xq t vas
+[02:56:35] [Server thread/INFO]: BigSam issued server command: /tell zkannek12 somos del mismo tim?
+[02:56:47] [Server thread/INFO]: Supernova5760 lost connection: Disconnected
+[02:56:47] [Server thread/INFO]: Supernova5760 left the game.
+[02:56:48] [Server thread/INFO]: zkannek12 issued server command: /tell BigSam si pero quiero hacer una consruccion
+[02:56:55] [Server thread/INFO]: BigSam issued server command: /tell zkannek12 yap
+[02:56:55] [Server thread/INFO]: zkannek12 issued server command: /tp sopadetamarindo
+[02:56:55] [Server thread/INFO]: [zkannek12: Teleported zkannek12 to sopadetamarindo]
+[02:56:56] [Server thread/WARN]: TiaRosario moved wrongly!
+[02:56:56] [Server thread/WARN]: TiaRosario moved wrongly!
+[02:58:23] [Server thread/INFO]: zkannek12 issued server command: /sethome base5
+[02:58:47] [Server thread/INFO]: §7BigSam has just earned the achievement [Enchanter]
+[02:59:11] [Async Chat Thread - #13/INFO]: <BigSam> una bruja me tiro una poti de veneno[m
+
+[02:59:54] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #19885 to (-1.9936098002008806,-1.3647471306171841,-4.539689328810155).
+[02:59:54] [Server thread/WARN]: java.lang.Exception: Stack trace
+
+[02:59:54] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
+
+[02:59:54] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
+
+[02:59:54] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.pullPlayer(GrapplingHook.java:312)
+
+[02:59:54] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.checkAndPull(GrapplingHook.java:280)
+
+[02:59:54] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.events.GrapplingHookEvents.onRectract(GrapplingHookEvents.java:26)
+
+[02:59:54] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[02:59:54] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[02:59:54] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300)
+
+[02:59:54] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78)
+
+[02:59:54] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+
+[02:59:54] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517)
+
+[02:59:54] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502)
+
+[02:59:54] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.EntityFishingHook.l(EntityFishingHook.java:461)
+
+[02:59:54] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemFishingRod.a(ItemFishingRod.java:15)
+
+[02:59:54] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemStack.a(ItemStack.java:236)
+
+[02:59:54] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerInteractManager.useItem(PlayerInteractManager.java:371)
+
+[02:59:54] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:734)
+
+[02:59:54] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:52)
+
+[02:59:54] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:1)
+
+[02:59:54] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+
+[02:59:54] [Server thread/WARN]: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+
+[02:59:54] [Server thread/WARN]: 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+
+[02:59:54] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+
+[02:59:54] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774)
+
+[02:59:54] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
+
+[02:59:54] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
+
+[02:59:54] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
+
+[02:59:54] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[03:00:08] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #19885 to (-2.2723577562992383,-1.7403657037651201,-4.738430641875768).
+[03:00:08] [Server thread/WARN]: java.lang.Exception: Stack trace
+
+[03:00:08] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
+
+[03:00:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
+
+[03:00:08] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.pullPlayer(GrapplingHook.java:312)
+
+[03:00:08] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.checkAndPull(GrapplingHook.java:280)
+
+[03:00:08] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.events.GrapplingHookEvents.onRectract(GrapplingHookEvents.java:26)
+
+[03:00:08] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[03:00:08] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[03:00:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300)
+
+[03:00:08] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78)
+
+[03:00:08] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+
+[03:00:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517)
+
+[03:00:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502)
+
+[03:00:08] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.EntityFishingHook.l(EntityFishingHook.java:461)
+
+[03:00:08] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemFishingRod.a(ItemFishingRod.java:15)
+
+[03:00:08] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemStack.a(ItemStack.java:236)
+
+[03:00:08] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerInteractManager.useItem(PlayerInteractManager.java:371)
+
+[03:00:08] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:734)
+
+[03:00:08] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:52)
+
+[03:00:08] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:1)
+
+[03:00:08] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+
+[03:00:08] [Server thread/WARN]: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+
+[03:00:08] [Server thread/WARN]: 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+
+[03:00:08] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+
+[03:00:08] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774)
+
+[03:00:08] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
+
+[03:00:08] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
+
+[03:00:08] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
+
+[03:00:08] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[03:00:34] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #19885 to (4.058966585234453,-0.9085340012325878,-1.8908824081773605).
+[03:00:34] [Server thread/WARN]: java.lang.Exception: Stack trace
+
+[03:00:34] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
+
+[03:00:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
+
+[03:00:34] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.pullPlayer(GrapplingHook.java:312)
+
+[03:00:34] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.checkAndPull(GrapplingHook.java:280)
+
+[03:00:34] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.events.GrapplingHookEvents.onRectract(GrapplingHookEvents.java:26)
+
+[03:00:34] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[03:00:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[03:00:34] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300)
+
+[03:00:34] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78)
+
+[03:00:34] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+
+[03:00:34] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517)
+
+[03:00:34] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502)
+
+[03:00:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.EntityFishingHook.l(EntityFishingHook.java:449)
+
+[03:00:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemFishingRod.a(ItemFishingRod.java:15)
+
+[03:00:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemStack.a(ItemStack.java:236)
+
+[03:00:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerInteractManager.useItem(PlayerInteractManager.java:371)
+
+[03:00:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:734)
+
+[03:00:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:52)
+
+[03:00:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:1)
+
+[03:00:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+
+[03:00:34] [Server thread/WARN]: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+
+[03:00:34] [Server thread/WARN]: 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+
+[03:00:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+
+[03:00:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774)
+
+[03:00:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
+
+[03:00:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
+
+[03:00:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
+
+[03:00:34] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[03:00:44] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #19885 to (-0.5866602734435427,-1.3455880589828313,-4.589133314428641).
+[03:00:44] [Server thread/WARN]: java.lang.Exception: Stack trace
+
+[03:00:44] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
+
+[03:00:44] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
+
+[03:00:44] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.pullPlayer(GrapplingHook.java:312)
+
+[03:00:44] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.checkAndPull(GrapplingHook.java:280)
+
+[03:00:44] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.events.GrapplingHookEvents.onRectract(GrapplingHookEvents.java:26)
+
+[03:00:44] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[03:00:44] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[03:00:44] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300)
+
+[03:00:44] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78)
+
+[03:00:44] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+
+[03:00:44] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517)
+
+[03:00:44] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502)
+
+[03:00:44] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.EntityFishingHook.l(EntityFishingHook.java:461)
+
+[03:00:44] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemFishingRod.a(ItemFishingRod.java:15)
+
+[03:00:44] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemStack.a(ItemStack.java:236)
+
+[03:00:44] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerInteractManager.useItem(PlayerInteractManager.java:371)
+
+[03:00:44] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:734)
+
+[03:00:44] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:52)
+
+[03:00:44] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:1)
+
+[03:00:44] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+
+[03:00:44] [Server thread/WARN]: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+
+[03:00:44] [Server thread/WARN]: 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+
+[03:00:44] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+
+[03:00:44] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774)
+
+[03:00:44] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
+
+[03:00:44] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
+
+[03:00:44] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
+
+[03:00:44] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[03:00:50] [Server thread/INFO]: zkannek12 issued server command: /sethome base6
+[03:00:53] [Server thread/INFO]: zkannek12 issued server command: /tp sopadetamarindo
+[03:00:53] [Server thread/INFO]: [zkannek12: Teleported zkannek12 to sopadetamarindo]
+[03:01:09] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #19885 to (4.562769310815704,-1.7858896347167799,1.8568347317785372).
+[03:01:09] [Server thread/WARN]: java.lang.Exception: Stack trace
+
+[03:01:09] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
+
+[03:01:09] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
+
+[03:01:09] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.pullPlayer(GrapplingHook.java:312)
+
+[03:01:09] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.checkAndPull(GrapplingHook.java:280)
+
+[03:01:09] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.events.GrapplingHookEvents.onRectract(GrapplingHookEvents.java:26)
+
+[03:01:09] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[03:01:09] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[03:01:09] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300)
+
+[03:01:09] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78)
+
+[03:01:09] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+
+[03:01:09] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517)
+
+[03:01:09] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502)
+
+[03:01:09] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.EntityFishingHook.l(EntityFishingHook.java:449)
+
+[03:01:09] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemFishingRod.a(ItemFishingRod.java:15)
+
+[03:01:09] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemStack.a(ItemStack.java:236)
+
+[03:01:09] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerInteractManager.useItem(PlayerInteractManager.java:371)
+
+[03:01:09] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:734)
+
+[03:01:09] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:52)
+
+[03:01:09] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:1)
+
+[03:01:09] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+
+[03:01:09] [Server thread/WARN]: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+
+[03:01:09] [Server thread/WARN]: 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+
+[03:01:09] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+
+[03:01:09] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774)
+
+[03:01:09] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
+
+[03:01:09] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
+
+[03:01:09] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
+
+[03:01:09] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[03:01:22] [Server thread/INFO]: zkannek12 issued server command: /tp sopadetamarindo zkannek12
+[03:01:22] [Server thread/INFO]: [zkannek12: Teleported sopadetamarindo to zkannek12]
+[03:01:39] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #19885 to (-4.944079483434633,-1.9588358494804605,-0.10931448548644809).
+[03:01:39] [Server thread/WARN]: java.lang.Exception: Stack trace
+
+[03:01:39] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
+
+[03:01:39] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
+
+[03:01:39] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.pullPlayer(GrapplingHook.java:312)
+
+[03:01:39] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.main.GrapplingHook.checkAndPull(GrapplingHook.java:280)
+
+[03:01:39] [Server thread/WARN]: 	at de.keule.mc.grapplinghook.events.GrapplingHookEvents.onRectract(GrapplingHookEvents.java:26)
+
+[03:01:39] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[03:01:39] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[03:01:39] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300)
+
+[03:01:39] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78)
+
+[03:01:39] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+
+[03:01:39] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517)
+
+[03:01:39] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502)
+
+[03:01:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.EntityFishingHook.l(EntityFishingHook.java:461)
+
+[03:01:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemFishingRod.a(ItemFishingRod.java:15)
+
+[03:01:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ItemStack.a(ItemStack.java:236)
+
+[03:01:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerInteractManager.useItem(PlayerInteractManager.java:371)
+
+[03:01:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:734)
+
+[03:01:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:52)
+
+[03:01:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:1)
+
+[03:01:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+
+[03:01:39] [Server thread/WARN]: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+
+[03:01:39] [Server thread/WARN]: 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+
+[03:01:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+
+[03:01:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774)
+
+[03:01:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
+
+[03:01:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
+
+[03:01:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
+
+[03:01:39] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[03:01:46] [Server thread/WARN]: BigSam moved wrongly!
+[03:02:42] [Server thread/INFO]: zkannek12 issued server command: /give zkannek12 grass_block 30
+[03:02:42] [Server thread/INFO]: [zkannek12: There is no such item with name minecraft:grass_block]
+[03:02:45] [Server thread/INFO]: zkannek12 issued server command: /give zkannek12 grass 30
+[03:02:45] [Server thread/INFO]: [zkannek12: Given [Grass Block] * 30 to zkannek12]
+[03:02:47] [Server thread/INFO]: zkannek12 issued server command: /give zkannek12 grass 30
+[03:02:47] [Server thread/INFO]: [zkannek12: Given [Grass Block] * 30 to zkannek12]
+[03:02:48] [Server thread/INFO]: zkannek12 issued server command: /give zkannek12 grass 30
+[03:02:48] [Server thread/INFO]: [zkannek12: Given [Grass Block] * 30 to zkannek12]
+[03:02:48] [Server thread/INFO]: zkannek12 issued server command: /give zkannek12 grass 30
+[03:02:48] [Server thread/INFO]: [zkannek12: Given [Grass Block] * 30 to zkannek12]
+[03:03:56] [Server thread/INFO]: zkannek12 issued server command: /give zkannek12 grass 80
+[03:03:56] [Server thread/INFO]: [zkannek12: The number you have entered (80) is too big, it must be at most 64]
+[03:03:59] [Server thread/INFO]: zkannek12 issued server command: /give zkannek12 grass 60
+[03:03:59] [Server thread/INFO]: [zkannek12: Given [Grass Block] * 60 to zkannek12]
+[03:04:01] [Server thread/INFO]: zkannek12 issued server command: /give zkannek12 grass 60
+[03:04:01] [Server thread/INFO]: [zkannek12: Given [Grass Block] * 60 to zkannek12]
+[03:04:27] [Async Chat Thread - #14/INFO]: <BigSam> bye[m
+
+[03:04:29] [Server thread/INFO]: BigSam lost connection: Disconnected
+[03:04:29] [Server thread/INFO]: BigSam left the game.
+[03:04:34] [Async Chat Thread - #14/INFO]: <zkannek12> bye[m
+
+[03:04:38] [Server thread/INFO]: zkannek12 issued server command: /weather clear
+[03:04:38] [Server thread/INFO]: [zkannek12: Changing to clear weather]
+[03:04:50] [Async Chat Thread - #14/INFO]: <zkannek12> ayquipa[m
+
+[03:04:54] [Async Chat Thread - #14/INFO]: <zkannek12> tas minando diamantes?[m
+
+[03:06:22] [Server thread/INFO]: zkannek12 issued server command: /time set day
+[03:06:22] [Server thread/INFO]: [zkannek12: Set the time to 1000]
+[03:09:08] [Async Chat Thread - #15/INFO]: <TiaRosario> yo y yañes teniamos entre los 2, 2 stackcs[m
+
+[03:09:18] [Async Chat Thread - #15/INFO]: <TiaRosario> ahora tengo casi uno màs[m
+
+[03:09:25] [Async Chat Thread - #15/INFO]: <TiaRosario> pero me voy a hacer armadura[m
+
+[03:09:47] [Async Chat Thread - #15/INFO]: <TiaRosario> oie marcelo si muero, alguien puede agarrar las cosas de mi tumba?[m
+
+[03:09:55] [Async Chat Thread - #15/INFO]: <TiaRosario> alguien que no sea yo?[m
+
+[03:10:07] [Async Chat Thread - #15/INFO]: <TiaRosario> o solo yo puedo agarrar las cosas de mi tumba?[m
+
+[03:12:04] [Thread-31/INFO]: UUID of player Supernova5760 is f1f7d80b-d6a4-3235-afcb-b45a67515307
+[03:12:04] [Server thread/INFO]: Supernova5760[/[0:0:0:0:0:0:0:1]:56590] logged in with entity id 102671 at ([world]5132.348112437639, 73.0, 1668.9870315707087)
+[03:15:13] [Server thread/INFO]: sopadetamarindo lost connection: Disconnected
+[03:15:13] [Server thread/INFO]: sopadetamarindo left the game.
+[03:16:05] [Thread-32/INFO]: UUID of player sopadetamarindo is 42d51bb5-7433-346e-8b8b-24c3fdab8530
+[03:16:05] [Server thread/INFO]: sopadetamarindo[/[0:0:0:0:0:0:0:1]:43018] logged in with entity id 103417 at ([world]9985.886184031717, 45.0, 10221.423474467954)
+[03:16:22] [Async Chat Thread - #16/INFO]: <sopadetamarindo> ekisde[m
+
+[03:16:33] [Async Chat Thread - #16/INFO]: <Supernova5760> tamare[m
+
+[03:16:37] [Async Chat Thread - #16/INFO]: <Supernova5760> no hice la maqueta[m
+
+[03:16:39] [Async Chat Thread - #16/INFO]: <Supernova5760> me van a papear[m
+
+[03:16:54] [Async Chat Thread - #16/INFO]: <TiaRosario> xd[m
+
+[03:18:49] [Server thread/INFO]: Supernova5760 issued server command: /home spawner
+[03:19:50] [Server thread/INFO]: zkannek12 issued server command: /weather clear
+[03:19:50] [Server thread/INFO]: [zkannek12: Changing to clear weather]
+[03:20:06] [Server thread/INFO]: zkannek12 issued server command: /effect zkannek12
+[03:20:13] [Server thread/INFO]: zkannek12 issued server command: /effect zkannek12 minecraft:haste 100000 10 true
+[03:20:13] [Server thread/INFO]: [zkannek12: Given Haste (ID 3) * 10 to zkannek12 for 100000 seconds]
+[03:20:19] [Server thread/INFO]: zkannek12 issued server command: /effect zkannek12 minecraft:haste 100000 100 true
+[03:20:19] [Server thread/INFO]: [zkannek12: Given Haste (ID 3) * 100 to zkannek12 for 100000 seconds]
+[03:21:01] [Server thread/INFO]: zkannek12 issued server command: /give zkannek12 minecraft:diamond_pickaxe
+[03:21:01] [Server thread/INFO]: [zkannek12: Given [Diamond Pickaxe] * 1 to zkannek12]
+[03:21:14] [Async Chat Thread - #17/INFO]: <zkannek12> plodi[m
+
+[03:22:03] [Server thread/INFO]: TiaRosario lost connection: Disconnected
+[03:22:03] [Server thread/INFO]: TiaRosario left the game.
+[03:22:14] [Async Chat Thread - #18/INFO]: <Supernova5760> q[m
+

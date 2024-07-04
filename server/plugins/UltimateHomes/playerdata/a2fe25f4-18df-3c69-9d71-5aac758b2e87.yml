@@ -1,0 +1,32 @@
+player:
+  info:
+    lastSeenAs: BigSam
+homes:
+  casa:
+    x: -265
+    y: 145
+    z: 363
+    yaw: -69.35001
+    pitch: 20.25
+    world: world
+  casa2:
+    x: -266
+    y: 145
+    z: 361
+    yaw: -69.0
+    pitch: 20.0
+    world: world
+  encantar:
+    x: -220
+    y: 193
+    z: 330
+    yaw: -269.9176
+    pitch: 29.961117
+    world: world
+  mina:
+    x: -233
+    y: 19
+    z: 416
+    yaw: -72.33032
+    pitch: 37.60609
+    world: world

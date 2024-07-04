@@ -1,0 +1,106 @@
+cooldown: 86400
+one_time: false
+auto_armor: true
+permission_required: false
+save_original_items: true
+display:
+  default:
+    id: GOLDEN_APPLE
+    name: '&9&lKit Diario'
+    amount: 1
+    durability: 1
+    lore:
+    - '&7'
+    - '&7'
+    - '&7Kit diario para poder'
+    - '&7iniciar o continuar'
+    - '&7jugando al servidor!'
+    - '&7'
+  no_permission:
+    id: BARRIER
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou don''t have permissions to claim'
+    - '&cthis kit.'
+  cooldown:
+    id: STONE_SWORD
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou need to wait &7%time%'
+    - '&cto claim this kit again.'
+    item_flags:
+    - HIDE_ATTRIBUTES
+items:
+  '1':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      type: STONE_SWORD
+    preview_slot: 0
+  '2':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      type: STONE_PICKAXE
+    preview_slot: 1
+  '3':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      amount: 8
+    preview_slot: 2
+  '4':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      type: COOKED_BEEF
+      amount: 32
+    preview_slot: 3
+  '5':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      type: COBBLESTONE
+      amount: 32
+    preview_slot: 4
+  '6':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEASH
+      amount: 2
+    preview_slot: 5
+  '7':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      type: NAME_TAG
+      amount: 2
+    preview_slot: 6
+  '8':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_BOOTS
+    preview_slot: 9
+  '9':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_LEGGINGS
+    preview_slot: 10
+  '10':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_CHESTPLATE
+    preview_slot: 11
+  '11':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_HELMET
+    preview_slot: 12
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false

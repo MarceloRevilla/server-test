@@ -1,0 +1,25 @@
+player:
+  info:
+    lastSeenAs: Supernova5760
+homes:
+  spawn:
+    x: 144
+    y: 69
+    z: 329
+    yaw: 94.50004
+    pitch: 28.799995
+    world: world
+  base:
+    x: 5167
+    y: 73
+    z: 1648
+    yaw: -3.4758801
+    pitch: 12.150008
+    world: world
+  spawner:
+    x: 5118
+    y: 21
+    z: 1658
+    yaw: -73.75006
+    pitch: 28.949995
+    world: world
